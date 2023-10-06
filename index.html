@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Material de estudo do curso</title>
+</head>
+
+<body>
+    <!-- Tag <p> sereve para escrever o paragrafo-->
+        <div 1 >
+        <h1>GUIA BÁSICO DE ESTUDOS HTML</h1>
+    <p> DOCTYPE html define qual a versão do html </p>
+    <p> [html] lang = pt-br define que é um arquivo html, linguagem português Brasil</p>
+    <p> [title] é o título do seu site " Materia de estudo do curso", que aparece na barra do navegador</p>
+    <p> [head] parte não visivel do site, configurações do site</p>
+    <p> [body] parte visivel do site</p>
+    <a href="#Fim"> Vá para o fim</a>
+</div>
+    <br>
+    <br>
+    <button> A tag "buttom cria um botão" Clique aqui </button>
+    <h1> [H1] Primeiro título ou o mais importante</h1>
+    <h2> [H2] Menos relevância</h2>
+    <h3> [H3] Menos relevância</h3>
+    <h4> [H4] Menos relevância</h4>
+    <h5> [H5] Menos relevância</h5>
+    <h6> [H6] Quanto maior o H menor a importância do título</h6>
+
+    <p> A tag [p] serve para escrever um paragrafo</p>
+    <br> A tag [br] serve para pular uma linha
+    <!-- A tag <b> serve para deixar um texto em negrito <i> em italico -->
+    <p>Essa palavra esta escrito em <b>negrito</b> por causa da tag [b] e em <i>italico</i> por causa da tag [i]</p>
+
+    <!-- A tag strong destaca a palavra e melhora o mecanismo de busca-->
+    <p> A tag [strong] destaca a palavra igual a <b>negrito</b> porém para os mecanismo de busca do goolge é elhor usar
+        [strong] que [b]</p>
+    <p> Para acessar uma pasta ou um nivel abaixo e procurar por exemplo uma imagem utiliza-se ./</p>
+    <p>Para acessar uma pasta ou um nivel acima e procurar por exemplo uma imagem utiliza-se ../</p>
+    <p>Para acessar dois niveis acima e procurar por exemplo uma imagem utiliza-se ../../</p>
+    <p> PARA RESETAR OU REINICIAR O VSCODE NO WINDOWS CTRL+SHIFT+P. NA ABA DE PESQUISA PROCURAR POR RELOD window</p>
+    <p> Abaixo como colocar links, telefone, e-mail, site, palavras clicaveis mandando por exemplo para o fim da página
+    </p>
+    <a href="https://www.linkedin.com/feed/" target="_blank"> Clique no meu Linkedin</a>
+    <br>
+    <a href="mailto:lucivalsouza@hotmail.com"> Envie um e-mail para mim</a>
+    <br>
+    <a href="tel:+5571999943331"> Me liga</a>
+    <br>
+    <p id="Fim"> Esse é o fim</p>
+    <br>
+    <p> A tag [ol] cria uma lista ordenado 1,2,3...4 e a tag [ul] cria uma lista não ordenada</p>
+    <h3>LISTA ORDENADA</h3>
+    <OL>
+        <li>ANA</li>
+        <li>BERNADO</li>
+        <li>CECILIA</li>
+    </OL>
+    <br>
+    <h3> LISTA NÃO ORDENADA</h3>
+    <ul>
+        <li>ABACATE</li>
+        <li>LIMÃO</li>
+        <li>ABACAXI</li>
+
+    </ul>
+    <h2>ELEMENTOS ESTRUTURAIS</h2>
+    <P> [DIV] São caixas organizadoras. Muito utilizado para organizar sites que possuem grandes estruturas (textos,
+        fotos, vídeos, informações etc). São muito utilizados e ajuda muito a estilizar o site no CSS. As [div] são
+        invisíveis.</P>
+    <br>
+    <p> [span] São parecidos com a div porém para quantidade de textos menores. Também para facilitar a estilização no
+        CSS.</p>
+    <p> Ex: Em uma linha de um paragrafo você quer que toda essa linha esteja na cor preta e somente uma palavra na cor
+        vermelha. Você utiliza o span para selecionar a palavra em questão.</p>
+    <br>
+    <h2>IMAGENS NO HTML</h2>
+    <p> [img] src=”imagem aqui”. SRC é o endereço onde está a imagem, pode ser o link de uma foto da internet ou o
+        endereço da foto no seu computador.... o ideal é usar uma pasta de imagens no seu Vscode na pasta de trabalho do
+        HTML.</p>
+    <p>Alt=”nome que aparecerá caso sua foto não carregue”. Alt vem de alternativo caso por algum motivo sua imagem
+        quebre e não apareça, aparecerá a descrição colocada em alt.</p>
+    <p> [figure] Tag novo na versão 5 do HTML, dentro dele pode-se colocar a tag [img] e abaixo a tag [figcaption] que
+        coloca um nome, descrição abaixo da foto, como se fosse uma legenda. Exemplo abaixo</p>
+    <figure>
+        <img src="imagens/celular.png" alt="Iphone">
+        <figcaption>Celular Iphone</figcaption>
+    </figure>
+    <br>
+    <p>É possível ajustar o tamanho da imagem altura e largura
+        Height = altura
+        Width= largura
+    </p>
+    <br>
+    <h3>TABELAS</h3>
+    <br>
+    <p> A tag [table] serve para criar tabela "th seria o cabeçario da coluna" e "td as linhas" th e td ficam dentro de
+        "tr"</p>
+    <table border="4" cellpading="10" bordercollor="black">
+        <tr>
+            <th>TIPO</th>
+            <th>VALOR</th>
+            <th>DATA</th>
+        </tr>
+        <tr>
+            <td>Alimentação</td>
+            <td>R$ 35,00</td>
+            <td>24.09.2023</td>
+        </tr>
+        <tr>
+            <td>Curso</td>
+            <td>R$ 1.000,00</td>
+            <td>15.09.2023</td>
+        </tr>
+    </table>
+
+    <h2> Iframe</h2>
+    <br>
+    <p> A tag [iframe] serve para colocar um site dentro do meu site. Alguns sites não permitem que isso seja feito a
+        exemplo do google. Porém posso fazer com o youtube na opção compartilhar, incorporar e copiar o iframe. E no
+        google maps compartilhar, incorporar mapa e copiar o código HTML</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m5fJ1bpubyU?si=-Z041MpyzgMr3_56"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+    <br>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.1009681205746!2d-38.22643786668782!3d-12.641380604681219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7165b641bf83e6b%3A0x5b4b832a5dac8155!2sComunidade%20Cat%C3%B3lica%20Cidade%20Santa!5e0!3m2!1spt-BR!2sbr!4v1695603463488!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+
+    </iframe>
+    <br>
+    <h2> INPUT</h2>
+    <br>
+    <p> A tag input tem várias opões ou tipos de aplicações </p>
+    <p>Autocomplete; você inicia o preenchimento e automaticamente o site preenche com suas informações salvas. É
+        preciso dizer qual a informação “rua endereço, e-mail, telefone etc”
+    </p>
+    <p> Disable; desabilita o input, não pode escrever.
+    </p>
+    <p>Value; já coloca um valor no input. Ex Lucival
+    </p>
+    <p>Readonly; não desabilita, mais não permite escrever no input.
+    </p>
+    <p>Autofocos; já começa o site com o input com foco. Se colocar o autofocos em mais de um input ele só focara no
+        primeiro.</p>
+    <p>Placeholder; coloca a informação a ser preenchida no input. Quando começa a escrever no input some a informação.
+    </p>
+    <br>
+    <p>Quando utilizamos a tag [input] dentro da tag [label] o leitor do site (programa) entende que o paragrafo e o
+        input fazem parte da mesma coisa.</p>
+    <br>
+    <label>
+        Rua:
+        <input autocomplete="street-address" placeholder="Digite sua rua" />
+
+    </label>
+    <br>
+    <p>Color; coloca um input de cor
+    </p>
+    <input type="color">
+    <p>Ranger; coloca uma barra com ranger. E temos a opção de colocar o valor mínimo, máximo e começa de um valor
+        pré-definido.</p>
+    <input type="range" min="0" max="100" value="25">
+    <br>
+    <p>File; para dowload de arquivo
+    </p>
+    <p>Multiple; dowload de vários arquivos ao mesmo tempo.
+    </p>
+    <p>Accept; escolhe o tipo de arquivo permitido, se é somente vídeo, fotos etc.</p>
+    <br>
+    <p>A opção rádio é utilizado em situação de escolha tipo o exemplo abaixo. Resultado do programa acima. Quando todos
+        os <radio> tem o mesmo name só conseguimos selecionar uma opção por vez. Se forem names diferente pode-se
+            selecionar quantas quiserem.</p>
+    <br>
+    <h2>Qual sua rede social favorita ?</h2>
+    <br>
+    <label for="facebook">facebook</label>
+    <input type="radio" id="facebook" name="redes-sociais" />
+    <br>
+    <label for="instagram">Instagram</label>
+    <input type="radio" id="instagram" name="redes-sociais" />
+    <br>
+    <label for="youtuber">youtuber</label>
+    <input type="radio" id="youtube" name="redes-sociais" />
+    <br>
+    <h2> FORMULÁRIOS</h2>
+    <br>
+    <p>A tag [form] serve para criar um formulário e captar várias informações de entrada. Dentro do formulário sempre
+        deve haver um [button] com a especificação submit. Pois ele fará a leitura dos dados digitados e enviara para o
+        lugar onde será guardado ou tratado as informações. Dentro da tag [form] é preciso ter declarado a action para
+        onde será enviado, e qual method será utilizado (Ex: GET, POST)</p>
+    <br>
+    <form action="" method="get">
+        <h1>Digite seu endereço</h1>
+        <label>
+            Rua:
+            <input type="text" name="Rua" autocomplete="street-address">
+
+        </label>
+
+        <label>
+            Número:
+            <input type="number" name="number">
+
+        </label>
+
+        <label>
+            Email:
+            <input type="email" name="email" autocomplete="email">
+
+        </label>
+
+        <button type="submit"> Enviar Dados</button>
+
+
+
+    </form>
+    <br>
+    <h2>BUTTON</h2>
+    <br>
+    <p>O uso da tag [button] dentro da tag [form].
+        Button do tipo Reset reseta tudo que estiver escrito no formulário.
+        Button do tipo submit envia as informações digitadas no formulário para o local definido na ação (site,
+        servidor, tela etc).
+    </p>
+    <p>O uso do button de forma geral, temos várias opções uma das mais utilizadas é o botão do tipo button, onclick.
+        Com esta opção eu defino qual ação o botão fará após ser clicado. Essas ações definimos no Java escript. Podemos
+        abrir um menu, outro site, comprar algo, fazer um calculo etc.</p>
+    <br>
+    <button type="button" onclick="">ENVIAR</button>
+    <br>
+    <h2>CLEAN CODE</h2>
+    <br>
+    <p>Clean Code.
+
+        Nada mais é do que você organizar o código criado.
+
+        Posso usar a opção format Document do Vscode. Ou fazer de forma manual a organização.
+
+        Deixar o código visualmente agradável de olhar. Para você e outra pessoa que for mexer no código.
+    </p>
+    <br>
+    <h2>HTML Semântica</h2>
+    <br>
+    <p>Facilita a organização e ranqueamento no site de busca do google.</p>
+    <p>Só de bater o olho já sabe o que significa cada parte do código.</p>
+    <br>
+    <ul> [header] cabeçario</ul>
+    <ul> [nav] navegação do meu site</ul>
+    <ul> [section] criar uma secção</ul>
+    <ul> [aside] menu lateral</ul>
+    <ul> [article] artigo</ul>
+    <ul> [footer] rodapé do meu site</ul>
+
+    <img src="imagens/semantica.png" alt="Semântica">
+
+
+    <h3>Em breve teremos mais informações.............!!!</h3>
+
+
+</body>
+
+</html>
